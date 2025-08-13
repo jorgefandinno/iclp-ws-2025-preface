@@ -1,0 +1,13 @@
+template/
+*.aux
+*.abs
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.log
+*.out
+*.xmpi
+*.synctex.gz
+*.xmpdata
+preface/preface.pdf

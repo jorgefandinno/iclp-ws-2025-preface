@@ -1,0 +1,109 @@
+%% The first command in your LaTeX source must be the \documentclass command.
+%%
+%% Options:
+%% twocolumn : Two column layout.
+%% hf: enable header and footer.
+\documentclass[
+% twocolumn,
+% hf,
+]{ceurart}
+
+%%
+%% One can fix some overfulls
+\sloppy
+
+%%
+%% Minted listings support 
+%% Need pygment <http://pygments.org/> <http://pypi.python.org/pypi/Pygments>
+\usepackage{listings}
+%% auto break lines
+\lstset{breaklines=true}
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% Rights management information.
+%% CC-BY is default license.
+\copyrightyear{2025}
+\copyrightclause{Copyright for this paper by its authors.
+  Use permitted under Creative Commons License Attribution 4.0
+  International (CC BY 4.0).}
+
+%%
+%% This command is for the conference information
+\conference{41th International Conference on Logic Programming, September 9-13, 2025, Rende, Italy}
+
+%% can use this document as the template for p
+%% The "title" command
+\title{Preface of the Joint Proceedings of the Workshops and Doctoral Consortium of the 41th International Conference on Logic Programming}
+
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+\author[1]{Pierangela Bruno}[%
+orcid=0000-0002-0877-7063,
+email=pierangela.bruno@unical.it,
+url=https://yamadharma.github.io/,
+]
+\address[2]{University of Calabria, Italy}
+
+
+\author[2]{Jorge Fandinno}[%
+orcid=0000-0002-3917-8717,
+email=jfandinno@unomaha.edu,
+url=https://www.unomaha.edu/college-of-information-science-and-technology/about/faculty-staff/jorge-fandinno.php,
+]
+\address[2]{University of Nebraska Omaha, USA}
+
+
+
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+This volume collects the papers accepted for publication at XXX workshops associated with the 41th International Conference on Logic Programming (ICLP 2025).
+%
+The events took place in Rende, Italy, on September 9-13, 2025.
+%
+Overall, there were XXX papers submitted for peer-review.
+%
+Out of these, XXX were accepted and XXX are included in this volume, XXX as regular papers and XXX as short papers. Some details of the associated workshops are given next.
+\end{abstract}
+
+\maketitle
+
+\section{Answer Set Programming and Other Computing Paradigms}
+
+18th Workshop on Answer Set Programming and Other Computing Paradigms (ASPOCP 2025).
+
+\subsection*{Chairs}
+\begin{itemize}
+  \item Chair 1
+  \item Chair 2
+  \item Chair 3
+\end{itemize}
+
+\subsection*{Organizers}
+\begin{itemize}
+  \item Organizer 1
+  \item Organizer 2
+  \item Organizer 3
+  \item ...
+\end{itemize}
+
+\subsection*{Program Committee}
+\begin{itemize}
+  \item Name, 1 University, Country
+  \item Name, 2 University, Country
+  \item Name, 3 University, Country
+  \item ...
+\end{itemize}
+
+\end{document}
+
+%%
+%% End of file
