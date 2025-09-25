@@ -56,7 +56,12 @@ email=jfandinno@unomaha.edu,
 ]
 \address[2]{University of Nebraska Omaha, USA}
 
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
 
+
+\newcommand{\workshop}[3]{\section{#2}\vspace{-8pt}\begin{changemargin}{19pt}{8pt} 
+\rm\normalsize\it #1 #2 (#3)\end{changemargin}}
 
 
 %%
@@ -74,42 +79,157 @@ Out of these, XXX were accepted and XXX are included in this volume, XXX as regu
 
 \maketitle
 
-\section{Answer Set Programming and Other Computing Paradigms
-\\
-\rm\normalsize\it 18th Workshop on Answer Set Programming and Other Computing Paradigms (ASPOCP 2025).
-}
+\workshop{32nd Workshop on}{Experimental Evaluation of Algorithms for Solving Problems with Combinatorial Explosion}{RCRA 2025}
 
-Please edit the title of your workshop above.
-
-
-Add here a short description of the workshop, its goals, and the number of submissions and accepted papers. Please state how many regular and short papers are included in this volume, as well as the number of abstracts coming from invited and already published papers.
-
-Please add below the name and affiliations of up to 3 workshop chairs and the name and affiliations of the members of the program committee. Other organizers can be listed in the corresponding item.
-%
-Chairs will be listed as editors of the proceedings.
-
-\subsection*{Chairs}
+\subsection*{Chairs and Organizers}
 \begin{itemize}
-  \item Chair 1, \emph{University}, Country
-  \item Chair 2, \emph{University}, Country
-  \item Chair 3, \emph{University}, Country
+  \item Marco Maratea, \emph{University of Calabria}, Italy
+  \item Luciano Serafini, \emph{FBK}, Italy
+  \item Mauro Vallati, \emph{University of Huddersfield}, UK
 \end{itemize}
 
-\subsection*{Organizers}
-\begin{itemize}
-  \item Organizer 1, \emph{University}, Country
-  \item Organizer 2, \emph{University}, Country
-  \item Organizer 3, \emph{University}, Country
-  \item ...
-\end{itemize}
 
 \subsection*{Program Committee}
 \begin{itemize}
-  \item Name 1, \emph{University}, Country
-  \item Name 2, \emph{University}, Country
-  \item Name 3, \emph{University}, Country
-  \item ...
+  \item Johannes P. Wallner, TU Graz
+  \item Stefania Costantini, \emph{Università degli Studi dell'Aquila}
+  \item Valentino Santucci, \emph{University for Foreigners of Perugia}
+  \item Francesco Calimeri, \emph{University of Calabria}
+  \item Giuseppe Mazzotta, \emph{University of Calabria}
+  \item Ivan Serina, \emph{University of Brescia}
+  \item Francesco Percassi, \emph{University of Huddersfield}
+  \item Francesco Santini, \emph{University of Perugia}
+  \item Wolfgang Faber, \emph{Alpen-Adria-Universität Klagenfurt}
+  \item Alice Tarzariol, \emph{Alpen-Adria-Universität Klagenfurt}
+  \item Andrea Formisano, \emph{Università di Udine}
+  \item Alessandro Bertagnon, \emph{University of Ferrara}
+  \item Carmine Dodaro, \emph{University of Calabria}
+  \item Luigi Bonassi, \emph{University of Oxford}
+  \item Leonardo Lamanna, \emph{Fondazione Bruno Kessler}
+  \item Matteo Cardellini, \emph{Università degli Studi di Genova}
 \end{itemize}
+
+
+\workshop{18th Workshop on}{Answer Set Programming and Other Computing Paradigms}{ASPOCP 2025}
+
+\subsection*{Chairs and Organizers}
+\begin{itemize}
+ \item Brais Muñiz, \emph{University of Coru\~na}, Spain
+ \item Alice Tarzariol, \emph{University of Klagenfurt}, Austria
+\end{itemize}
+
+
+\subsection*{Program Committee}
+\begin{itemize}
+  \item Mario Alviano, \emph{University of Calabria}
+  \item Pedro Cabalar, \emph{University of Coru\~na}
+  \item Tran Cao, \emph{New Mexico State University}
+  \item Francesco Cauteruccio, \emph{University of Salerno}
+  \item Stefania Costantini, \emph{University of L'Aquila}
+  \item Carmine Dodaro, \emph{University of Calabria}
+  \item Esra Erdem, \emph{Sabanci University}
+  \item Cristina Feier, \emph{Technical University of Cluj-Napoca}
+  \item Johannes K. Fichte, \emph{Linköping University}
+  \item Tobias Geibinger, \emph{Vienna University of Technology}
+  \item Giovambattista Ianni, \emph{University of Calabria}
+  \item Tomi Janhunen, \emph{Tampere University}
+  \item Vladimir Lifschitz, \emph{University of Texas}
+  \item Marco Maratea, \emph{University of Calabria}
+  \item Michael Morak, \emph{University of Klagenfurt}
+  \item Orkunt Sabuncu, \emph{Potassco Solutions Turkey}
+  \item Konstantin Schekotihin, \emph{University of Klagenfurt}
+  \item Van-Giang Trinh, \emph{Inria Saclay}
+  \item Jia-Huai You, \emph{University of Alberta}
+  \item Johannes P. Wallner, \emph{TU Graz}
+\end{itemize}
+
+\workshop{12th Workshop on}{Probabilistic Logic Programming}{PLP 2025}
+
+\subsection*{Chairs and Organizers}
+\begin{itemize}
+  \item Damiano Azzolini, \emph{University of Ferrara}, Italy
+  \item Markus Hecher, \emph{CNRS, Artois University}, France
+\end{itemize}
+
+
+\subsection*{Program Committee}
+\begin{itemize}
+  \item Elena Bellodi
+  \item Alice Bizzarri
+  \item Fabio Gagliardi Cozman
+  \item James Cussens
+  \item Antonio Ielo
+  \item Rafael Kiesel
+  \item Denis Maua
+  \item Fabrizio Riguzzi
+  \item Kilian Rückschloß
+  \item Theresa Swift
+  \item Joost Vennekens
+  \item Felix Weitkämper
+  \item Riccardo Zese
+\end{itemize}
+
+\workshop{9th Workshop on}{Advances in Argumentation in Artificial Intelligence}{AI$^3$ 2025}
+
+\subsection*{Program Chairs}
+\begin{itemize}
+  \item Mario Alviano, University of Calabria, Italy
+  \item Bettina Fazzinga, University of Calabria, Italy
+\end{itemize}
+
+\subsection*{Publicity Chairs}
+\begin{itemize}
+  \item Manuel Alejandro Borroto Santana, University of Calabria, Italy
+\end{itemize}
+
+
+\subsection*{Program Committee}
+\begin{itemize}
+  \item Gianvincenzo Alfano, \emph{University of Calabria}
+  \item Pietro Baroni, \emph{University of Brescia}
+  \item Stefano Bistarelli, \emph{University of Perugia}
+  \item Sergio Flesca, \emph{DIMES - UNICAL}
+  \item Massimiliano Giacomin, \emph{University of Brescia}
+  \item Daniele Porello, \emph{University of Genoa}
+  \item Carlo Proietti, \emph{CNR, ILC}
+  \item Francesco Santini, \emph{University of Perugia}
+  \item Carlo Taticchi, \emph{University of Perugia}
+  \item Alice Toniolo, \emph{University of St Andrews}
+  \item Paolo Torroni, \emph{University of Bologna}
+  \item Mauro Vallati, \emph{University of Huddersfield}
+\end{itemize}
+
+% \workshop{2nd Workshop on}{Prolog Improvement Proposals}{PIPs 2025}
+
+\workshop{1st Workshop on}{Logic Programming and Legal Reasoning}{LPLR 2025}
+
+\subsection*{Chairs and Organizers}
+\begin{itemize}
+\item Ilias Tachmazidis, \emph{University of Huddersfield}, UK
+
+\item Sotiris Batsakis, \emph{University of Huddersfield}, UK
+
+\item Livio Robaldo, \emph{University of Swansea}, UK
+
+\item Livio Robaldo, \emph{University of Swansea}, UK
+
+\item Emmanuel Papadakis, \emph{University of Huddersfield}, UK
+
+\item Adam Wyner, \emph{University of Swansea}, UK
+\end{itemize}
+
+\workshop{1st Workshop on}{Cognitive Architectures for Robotics: LLMs and Logic in Action}{CARLA 2025}
+
+\subsection*{Chairs and Organizers}
+\begin{itemize}
+\item Fabrizio Lo Scudo, \emph{University of Calabria}, Italy
+
+\item Sotirios Batsakis, \emph{Hellenic Mediterranean University}, Greece
+
+\item Manuel Alejandro Borroto Santana, \emph{University of Calabria}, Italy
+\end{itemize}
+
+
 
 \end{document}
 
