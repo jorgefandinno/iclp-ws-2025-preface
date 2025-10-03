@@ -59,9 +59,9 @@ email=jfandinno@unomaha.edu,
 \def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
 \let\endchangemargin=\endlist 
 
-
-\newcommand{\workshop}[3]{\section{#2}\vspace{-8pt}\begin{changemargin}{19pt}{8pt} 
-\rm\normalsize\it #1 #2 (#3)\end{changemargin}}
+\newcommand{\workshopp}[2]{\section{#1}\vspace{-8pt}\begin{changemargin}{19pt}{8pt} 
+\rm\normalsize\it #2\end{changemargin}}
+\newcommand{\workshop}[3]{\workshopp{#2}{#1 #2 (#3)}}
 
 
 %%
@@ -201,12 +201,46 @@ The Doctoral Consortium papers were all short papers.
   \item Mauro Vallati, \emph{University of Huddersfield}
 \end{itemize}
 
-\workshop{3rd Workshop on}{Prolog Education}{PEG 2025}
+\workshopp{Prolog Education}{3rd Prolog Education Workshop (PEG 2025)}
+
+\noindent
+This part of the volume contains the papers presented at the Third Prolog Education Workshop, PEG 2025, one of the initiatives of the Prolog Education Group 2.0 (PEG 2.0). We received 9 submissions out of which 6 papers were accepted as regular papers, and 2 as short papers. In addition to the technical papers, the workshop included two invited talks: Verónica Dahl (Simon Fraser University, Canada) delivered "PEG 2.0: Future-gazing through a socio-linguistic and historical lens" and Theresa Swift (Universidade Nova de Lisboa, Portugal) presented "LLM-Assisted Education for a Low-Resource Logic Programming Language".
+
 
 \subsection*{Chairs}
 \begin{itemize}
-  \item Laura Cecchi, \emph{Universidad Nacional del Comahue}, Argentina
+  \item Laura A. Cecchi, \emph{Universidad Nacional del Comahue}, Argentina
   \item José F. Morales, \emph{T.U. Madrid (UPM) and IMDEA Software Institute}, Spain
+\end{itemize}
+
+\subsection*{Program Committee}
+\begin{itemize}
+\item Salvador Abreu, \emph{Universidade de Evora}
+\item Joaquín Arias, \emph{CETINIA, Universidad Rey Juan Carlos}
+\item Asya Astanova, \emph{Plovdiv University}
+\item Roberta Calegari, \emph{Università di Bologna}
+\item Stefania Costantini, \emph{Università degli Studi dell'Aquila}
+\item Verónica Dahl, \emph{Simon Fraser University}
+\item Jacinto Dávila, \emph{Universidad de Los Andes}
+\item Włodek Drabent, \emph{Institute of Computer Science, Polish Academy of Sciences}
+\item Atanas Dukovski, \emph{Bulgarian Academy of Sciences Institute of Information and Communication}
+\item Michael Genesereth, \emph{Stanford University}
+\item Gopal Gupta, \emph{University of Texas at Dallas}
+\item Angelo Ferrando, \emph{Università degli Studi di Modena e Reggio Emilia}
+\item Jason Hemann, \emph{Seton Hall University}
+\item Manuel Hermenegildo, \emph{T.U. Madrid (UPM) and IMDEA Software Institute}
+\item Bharat Jayaraman, \emph{Amrita Institute of Advanced Research}
+\item Christian Jendreiko, \emph{HSD University of Applied Sciences}
+\item Bob Kowalski, \emph{Imperial College London}
+\item Pedro Lopez, \emph{T.U. Madrid (UPM) and IMDEA Software Institute}
+\item Fernando Sáenz-Perez, \emph{Universidad Complutense de Madrid}
+\item Theresa Swift, \emph{Universidade Nova de Lisboa}
+\item Veneta Tabakova-Komsalova, \emph{Plovdiv University}
+\item Paul Tarau, \emph{University of North Texas}
+\item David S. Warren, \emph{Stony Brook University}
+\item Felix Weitkämper, \emph{Universität München}
+\item Jan Wielemaker, \emph{Vrije Universiteit Amsterdam}
+\item Adam Wyner, \emph{Swansea University}
 \end{itemize}
 
 % \workshop{2nd Workshop on}{Prolog Improvement Proposals}{PIPs 2025}
