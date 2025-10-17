@@ -1,0 +1,12 @@
+(*) Use of CEUR-WS.org logo or link or string CEUR Workshop Proceedings before publication
+PDF file CARLA2025_short_1.pdf uses 'CEUR-WS.org' or 'CEUR Workshop Proceedings' before publication
+PDF file paper_1_PLP2025.pdf uses 'CEUR-WS.org' or 'CEUR Workshop Proceedings' before publication
+PDF file paper_aspocp_1.pdf uses 'CEUR-WS.org' or 'CEUR Workshop Proceedings' before publication
+PDF file paper_aspocp_2.pdf uses 'CEUR-WS.org' or 'CEUR Workshop Proceedings' before publication
+ ===> Use the latest CEURART template from https://ceur-ws.org/Vol-XXX/, which does not have a footnote with the CEUR-WS logo; Do not use the string 'CEUR Workshop Proceedings' in the header or footer of papers
+ 
+
+(*) Libertinus font in paper PDFs
+PDF file CARLA2025_short_1.pdf does not use Libertinus font family
+PDF file PEG-Regular-2.pdf does not use Libertinus font family
+ ===> Make sure that paper PDFs use the Libertinus font family; instructions to install Libertinus fonts are included in https://ceur-ws.org/Vol-XXX/CEUR-Template-1col.odt; paper PDFs should all use Libertinus fonts, prefaces that have no paper character do not necessarily need to use Libertinus; do not use Word/MS365 but rather use LibreOffice and its PDF exporter
