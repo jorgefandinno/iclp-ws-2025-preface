@@ -1,0 +1,40 @@
+/* aixia.css adapts the ceur-ws.css style for the AI*IA   */
+/* subseries within CEUR-WS.org.                          */
+/* Copyright 2015 by CEURWS Team                          */
+/* Use permitted within CEUR-WS.org.                      */
+/* Modification permitted for members of the CEUR-WS TEAM.*/
+/*                                                        */
+/* THIS STYLE FILE IS FOR EXCLUSIVE USE WITHIN            */
+/* CEUR-WS.ORG! DO NOT COPY IT AS A WHOLE OR AS PARTS.    */
+/* IN PARTICULAR, THE TAGS CEUR* DEFINED BELOW MAY NOT BE */
+/* REUSED OR OVERRIDDEN.                                  */
+/* All references to aixia.css in HTML files must be      */
+/* relative to ceur-ws.org, e.g. "../aixia.ccs".          */
+/* Absolute references like "ceur-ws.org/aixia.css" are   */
+/* not permitted.                                         */
+/*                                                        */
+/* Created: 18-Jul-2015/M.Jeusfeld                        */
+/* Modified:02-Nov-2018/M.Jeusfeld VOLNR bg               */
+
+
+body {
+background-image: url(https://ceur-ws.org/ceurws-aixia-bg.png);
+}
+
+#AIXIALOGO {
+   background-image: url('./AIXIA-series.png');
+   height: 100px;
+   width: 150px;
+   color-adjust: exact !important;                 /*Firefox*/
+}
+
+#AIXIALOGO:hover {
+   background-image: url('./AIXIA-series-hover.png');
+}
+
+
+/* disable this feature which is used only for print preview */
+/* .CEURVOLNR:before{content:"CEUR-WS.org/"; color:#EEFBEF; font-size:large;} */
+
+
+
