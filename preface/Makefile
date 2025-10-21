@@ -6,7 +6,7 @@ BIBTEX = bibtex
 FILES = $(patsubst %.tex, %.pdf, $(wildcard *.tex))
 
 # all: $(FILES)
-all: preface.pdf preface-ws.pdf
+all: preface.pdf
 
 %.pdf: %.tex
 	$(LATEX) $(LATEX_FLAGS) $<

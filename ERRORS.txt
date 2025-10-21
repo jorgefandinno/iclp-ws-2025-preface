@@ -1,5 +1,4 @@
 (*) Use of CEUR-WS.org logo or link or string CEUR Workshop Proceedings before publication
-PDF file CARLA2025_short_1.pdf uses 'CEUR-WS.org' or 'CEUR Workshop Proceedings' before publication
 PDF file paper_1_PLP2025.pdf uses 'CEUR-WS.org' or 'CEUR Workshop Proceedings' before publication
 PDF file paper_aspocp_1.pdf uses 'CEUR-WS.org' or 'CEUR Workshop Proceedings' before publication
 PDF file paper_aspocp_2.pdf uses 'CEUR-WS.org' or 'CEUR Workshop Proceedings' before publication
