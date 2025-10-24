@@ -7,16 +7,17 @@ FILES = $(patsubst %.tex, %.pdf, $(wildcard *.tex))
 
 # all: $(FILES)
 all: preface.pdf
+	latexmk -pdf preface.tex
 
-%.pdf: %.tex
-	$(LATEX) $(LATEX_FLAGS) $<
-	$(LATEX) $(LATEX_FLAGS) $<
-	-$(BIBTEX) `basename $< .tex`
-	$(LATEX) $(LATEX_FLAGS) $<
-	$(LATEX) $(LATEX_FLAGS) $<
-	$(LATEX) $(LATEX_FLAGS) $<
-	qpdf --linearize --newline-before-endstream $@ /tmp/$@
-	mv /tmp/$@ $@
+# %.pdf: %.tex
+# 	$(LATEX) $(LATEX_FLAGS) $<
+# 	$(LATEX) $(LATEX_FLAGS) $<
+# 	-$(BIBTEX) `basename $< .tex`
+# 	$(LATEX) $(LATEX_FLAGS) $<
+# 	$(LATEX) $(LATEX_FLAGS) $<
+# 	$(LATEX) $(LATEX_FLAGS) $<
+# 	qpdf --linearize --newline-before-endstream $@ /tmp/$@
+# 	mv /tmp/$@ $@
 
 clean:
 	-rm -f *.{log,toc,tac,aux,dvi,ps,bbl,blg,tmp,nav,out,snm,vrb,rel,cut,abs,xmpi,xmpdata,*~}
