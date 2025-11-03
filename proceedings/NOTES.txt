@@ -1,0 +1,15 @@
+- Copyright_short_Rcra_3 doesn't have location and date by the signature.
+- Copyright_short_Rcra_3 is NOT signed with pen on paper.
+- LPLR2025_paper_2 ... is NOT signed with pen on paper
+- paper_aspocp_1_NTP-agreement is NOT signed with pen on paper
+- paper_aspocp_2_NTP-agreement is missing location and date by the signature
+- PEG-Short-1-Author-Agreement is NOT signed with pen on paper
+- PEG-Short-2-Author-Agreement is NOT signed with pen on paper
+- agreement_paper_dc_3 is missing location and date by the signature
+- agreement_paper_dc_4 - is unreadable
+- agreement_paper_dc_6 is missing location and date by the signature AND it is NOT signed with pen on paper
+- agreement_paper_dc_8 is missing location and date by the signature
+- agreement_paper_dc_9 is NOT signed with pen on paper
+- agreement_paper_dc_11 is NOT signed with pen on paper
+- agreement_paper_dc_20 is NOT signed with pen on paper
+- agreement_paper_dc_21 is missing location and date by the signature
