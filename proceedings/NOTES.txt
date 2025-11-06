@@ -17,5 +17,5 @@ PEG-Regular-2 and PEG-Regular-6 need to be fixed
 
 
 Papers:
-- DONE: LPLR, PLP, CARLA
-- TODO: RCRA, ASPOCP, PEG, DC
+- DONE: LPLR, PLP, CARLA, PEG, ASPOCP
+- TODO: RCRA, DC
